@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CovidData</name>
+    </assembly>
+    <members>
+        <member name="M:CovidData.Controllers.CovidCasesController.Get">
+             GET api/
+             <summary>
+             Gets a default message.
+             </summary>
+             <remarks>
+             Example:
+            
+                 POST /Todo
+                 {
+                    "id": 1,
+                    "name": "Item1",
+                    "iscomplete": true
+                 }
+            
+             </remarks>
+             <param name="value"></param>
+             <returns>Um novo item criado</returns>
+             <response code="201">Retorna o novo item criado</response>
+             <response code="400">Se o item não for criado</response> 
+        </member>
+        <member name="M:CovidData.Controllers.CovidCasesController.Post">
+             POST api/todo
+             <summary>
+             Cria um item na To-do list.
+             </summary>
+             <remarks>
+             Exemplo:
+            
+                 POST /Todo
+                 {
+                    "id": 1,
+                    "name": "Item1",
+                    "iscomplete": true
+                 }
+            
+             </remarks>
+             <param name="value"></param>
+             <returns>Um novo item criado</returns>
+             <response code="201">Retorna o novo item criado</response>
+             <response code="400">Se o item não for criado</response>   
+        </member>
+    </members>
+</doc>
